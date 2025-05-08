@@ -1,0 +1,11 @@
+# Core requirements for all platforms
+pyperclip==1.8.2
+googletrans==4.0.0-rc1
+
+# Windows-specific requirements
+keyboard==0.13.5;platform_system=="Windows"
+win10toast==0.9;platform_system=="Windows"
+
+# MacOS-specific requirements
+pynput==1.7.6;platform_system=="Darwin"
+pync==2.0.3;platform_system=="Darwin"
